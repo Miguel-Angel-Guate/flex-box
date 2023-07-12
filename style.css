@@ -44,6 +44,12 @@
     background-color: gray;
     display: flex;
 }
+.blankRight {
+    height: 5%;
+    width: 100%;
+    background-color:  gray;
+    display: flex;
+}
 
 .square2 {
     height: 20%;
@@ -82,14 +88,21 @@
 height: 50%;
 width: 45%;
 display: flex;  
-flex-wrap: wrap;
+flex-direction: column;
 }
-
+.thirdDivRigth {
+    height: 30%;
+    background-color: pink;
+}
+.lastDivFirstSectionRigth {
+    height: 25%;
+    background-color: pink;
+}
 
 .square4 {
     height: 35%;
     width: 100%;
-    background-color: red;
+    background-color:  gray;
     display: flex;
 }
 
