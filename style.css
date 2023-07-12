@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding: 0;
+    padding: 0px;
 }
 .container {
     width: 100vw;
@@ -8,6 +8,7 @@
     background-color: rosybrown;
     display: flex;
     flex-wrap: wrap;
+
 }
 .left {
     width: 50%;
@@ -16,10 +17,108 @@
     display: flex;
     flex-wrap: wrap;
 }
-.rigth {
+.right {
     width: 50%;
     height: 100%;
     background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square1 {
+    height:35%;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+}
+
+
+.blank {
+    height: 5%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+}
+.blankRight {
+    height: 5%;
+    width: 100%;
+    background-color:  gray;
+    display: flex;
+}
+
+.square2 {
+    height: 20%;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+}
+
+.blank2 {
+    height: 5%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+}
+
+.square3 {
+    height: 35%;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+}
+
+.longBlank {
+    width: 5%;
+    height: 50%;
+}
+
+.blank4 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+
+
+.rightTop {
+height: 50%;
+width: 45%;
+display: flex;  
+flex-direction: column;
+}
+.thirdDivRigth {
+    height: 30%;
+    background-color: pink;
+}
+.lastDivFirstSectionRigth {
+    height: 25%;
+    background-color: pink;
+}
+
+.square4 {
+    height: 35%;
+    width: 100%;
+    background-color:  gray;
+    display: flex;
+}
+
+.blank5 {
+    height: 10%;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+}
+
+.square5 {
+    background-color: aquamarine;
+    height: 35%;
+    width: 95%;
 }
 
 
