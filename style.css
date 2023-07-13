@@ -33,7 +33,7 @@
 }
 
 .square1 {
-    height:35%;
+    height:37%;
     width: 100%;
     background-color: pink;
     display: flex;
@@ -54,21 +54,21 @@
 }
 
 .square2 {
-    height: 20%;
+    height: 22%;
     width: 100%;
     background-color: pink;
     display: flex;
 }
 
 .blank2 {
-    height: 5%;
+    height: 6%;
     width: 100%;
     background-color: gray;
     display: flex;
 }
 
 .square3 {
-    height: 35%;
+    height: 30%;
     width: 100%;
     background-color: pink;
     display: flex;
@@ -96,7 +96,7 @@ flex-direction: column;
     height: 30%;
     background-color: pink;
 }
-.lastDivFirstSectionRigth {
+.lastDivFirstSectionRight {
     height: 25%;
     background-color: pink;
 }
@@ -158,11 +158,11 @@ flex-direction: column;
 }
 
 
-.blank2 {
+.blank22 {
  width: 100%;
  height: 3%;
  display: flex;
- background-color: aliceblue;
+ background-color: aliceblue; /*  this one please  */
 }
 
 .thirdDiv {
