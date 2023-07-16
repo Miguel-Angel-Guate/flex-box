@@ -183,16 +183,125 @@ flex-direction: column;
 
 
 
-.longBlank {
+.longBlank2 {
     height:100%;
     width: 5%;
     display: flex;
     background-color: aliceblue;
 }
 
-.longDiv {
+.longDiv2 {
     height: 100%;
     width:95%;
     display: flex;
     background-color: cadetblue;
+}
+
+
+@media only screen and (max-width:600px) {
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .right {
+    height: 50%;
+    width: 100%;
+    display: flex;
+  }
+
+  .left {
+    height: 50%;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+  }
+  
+  .firstDivAndBlank{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+ .blankTwoAndThreeDivs {
+height: 50%;
+width: 100%;
+display: flex;
+flex-direction: column;
+ }
+ 
+ .longTags {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+
+.longBlank2 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.longDiv2 {
+height: 90%;
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+ 
+}
+
+
+@media only screen and (max-width:768px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        height: 50%;
+        width: 100%;
+    }
+
+    .left {
+        height: 50%;
+        width: 100%;
+    }
+
+    .firstDivAndBlank {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .blankTwoAndThreeDivs {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .longTags {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .longBlank2 {
+        height: 10%;
+        width: 100%;
+    }
+    .longDiv2 {
+        height: 90%;
+        width: 100%;
+    }
 }
